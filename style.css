@@ -1,0 +1,242 @@
+/* For easy find and replace: */
+
+/* Background color: #823573 */
+/* Text area background color: #f8daf3 */
+/* Text color: #000000 */
+/* Hover/active color: #c794cc */
+/* Section label in dropdowns color: #a278a5 */
+
+*
+{ 
+    font-family: 'Verdana', sans-serif;
+    color: #000000; /*Text color*/
+    text-align: left;
+	font-size: 14px;
+}
+
+h1
+{
+    font-size: 22px;
+}
+
+h2
+{
+    font-size: 18px;
+	padding-left: 25px;
+}
+
+h3
+{
+    font-size: 14px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: -webkit-link;
+}
+
+body
+{
+	background: #823573;
+}
+
+article
+{
+	background: #f8daf3;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+}
+
+footer
+{
+    background: #f8daf3;
+    border-radius: 5px;
+    font-size: 17px; /* Increased text to enable scrolling */
+    margin-left: 3%; /* Same width as the sidebar + left position in px */
+    margin-right: 3%; /* Same width as the sidebar + left position in px */
+}
+
+.footer
+{
+    padding: 10px 20px 10px 20px;
+	display: block;
+}
+
+.centerreg
+{
+    text-align: center;
+}
+
+.sBs /*Side by side*/
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatClear
+{
+    clear: both;
+}
+
+nav
+{
+	position: relative;
+	margin-left: 3%;
+	margin-right: 3%;
+	border-radius: 5px;
+	background: #f8daf3;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Navbar container */
+.navbar
+{
+	overflow: hidden;	
+}
+
+.navbar a
+{
+	float: left;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 15px;
+	font-weight: normal;
+	
+	display: block; /*???*/
+}
+
+/* The dropdown container */
+.dropdown
+{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn
+{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #000000;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+	padding: 15px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.navbar a:hover, .dropdown:hover
+{
+	background-color: #c794cc;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #f8daf3;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+	border-radius: 2px;
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a
+{
+	float: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover
+{
+  background-color: #C593CB;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+.navdivider
+{
+	color: #a278a5;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 8px;
+	margin-bottom: 4px;
+	text-align: center;
+	font-size: 12px;
+	height: 14px;
+}
+
+.main
+{
+	font-size: 17px; /* Increased text to enable scrolling */
+	margin-left: 3%; /* Same width as the sidebar + left position in px */
+	margin-right: 3%; /* Same width as the sidebar + left position in px */
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+/* Changes the display if the screen is wide enough, to make it sidenav instead */
+@media screen and (min-width: 600px)
+{
+	nav
+	{
+		width: 150px;
+		position: fixed;
+		margin-left: 15px;
+		padding: 8px 0;
+	}
+	
+	.navbar a, .dropdown
+	{
+		float: none;
+		text-align: center;
+	}
+	
+	.dropdown:hover .dropdown-content
+	{
+		left: 150px;
+		display: inline-block;
+	}
+	
+	.main
+	{
+		margin-left: 175px; /* Same width as the sidebar + left position in px */
+		min-width: 200px;
+		max-width: 1250px;
+		padding-top: 0px;
+		padding-bottom: 5px;
+	}
+	
+	footer
+    {
+        margin-left: 175px; /* Same width as the sidebar + left position in px */
+        min-width: 200px;
+        max-width: 1250px;
+    }
+}
