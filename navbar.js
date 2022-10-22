@@ -27,7 +27,7 @@ let links = [
 	{title: 'Balloons', sublinks:[
 		{title: '— Solo —' },
 		{path: 'balloons/rose_vine', title: "Rose Vine"},
-		{path: 'balloons/rose_vines', title: "Rose VineS"},
+		{path: 'balloons/rose_vine_s', title: "Rose VineS"},
 		{title: '— Collab —' },
 		{path: 'balloons/balloons_balloon', title: "Balloons Balloon"},
 		{path: 'balloons/blopy', title: "blopblop"},
