@@ -104,9 +104,10 @@ function linkHTML(link)
 function fixLocalLinks()
 {
 	let a_links = document.getElementsByTagName("a");
+	console.log(a_links);
 	for (let a_link of a_links)
 	{
-		if (!a_link.href.startsWith("http"))
+		if (a_link.href.startsWith("https://gallathegalla.github.io/gtg-ghosts/"))
 		{
 			a_link.href = a_link.href.replace(".html","");
 		}
