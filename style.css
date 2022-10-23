@@ -92,15 +92,14 @@ nav
 	position: relative;
 	margin-left: 3%;
 	margin-right: 3%;
-	border-radius: 5px;
-	background: #f8daf3;
-	padding-left: 15px;
-    padding-right: 15px;
+	padding-bottom: 5px;
 }
 
 /* Navbar container */
 .navbar
 {
+	border-radius: 5px;
+	background: #f8daf3;
 	overflow: hidden;	
 }
 
@@ -196,10 +195,9 @@ nav
 	font-size: 17px; /* Increased text to enable scrolling */
 	margin-left: 3%; /* Same width as the sidebar + left position in px */
 	margin-right: 3%; /* Same width as the sidebar + left position in px */
-	padding-top: 5px;
+	/*padding-top: 5px;*/
 	padding-bottom: 5px;
 }
-
 
 /* Changes the display if the screen is wide enough, to make it sidenav instead */
 @media screen and (min-width: 600px)
@@ -209,7 +207,7 @@ nav
 		width: 150px;
 		position: fixed;
 		margin-left: 15px;
-		padding: 8px 0;
+		/*padding: 8px 0;*/
 	}
 	
 	.navbar a, .dropdown
@@ -226,7 +224,7 @@ nav
 	
 	.main
 	{
-		margin-left: 175px; /* Same width as the sidebar + left position in px */
+		margin-left: 170px; /* Same width as the sidebar + left position in px - previously 175 */
 		min-width: 200px;
 		max-width: 1250px;
 		padding-top: 0px;
@@ -235,7 +233,7 @@ nav
 	
 	footer
     {
-        margin-left: 175px; /* Same width as the sidebar + left position in px */
+        margin-left: 171px; /* Same width as the sidebar + left position in px */
         min-width: 200px;
         max-width: 1250px;
     }
