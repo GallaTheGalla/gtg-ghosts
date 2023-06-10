@@ -12,6 +12,7 @@ let links = [
 	{path: 'index', title: 'Home'},
 	{title: 'Ghosts', sublinks:[
 		{title: '— Solo —' },
+		{path: 'ghosts/i_often_dream_of_marigolds', title: 'I Often Dream Of Marigolds'},
 		{title: '— Collab —' },
 		{path: 'ghosts/balloons', title: 'Balloons'},
 		{path: 'ghosts/needle', title: 'Needle'},
@@ -26,6 +27,7 @@ let links = [
 	]},
 	{title: 'Balloons', sublinks:[
 		{title: '— Solo —' },
+		{path: 'balloons/fading_like_a_dream', title: "Fading Like A Dream"},
 		{path: 'balloons/rose_vine', title: "Rose Vine"},
 		{path: 'balloons/rose_vine_s', title: "Rose VineS"},
 		{path: 'balloons/spirit_detective', title: "Spirit Detective"},
