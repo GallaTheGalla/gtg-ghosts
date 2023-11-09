@@ -40,7 +40,7 @@ a
 {
 	text-decoration: none;
 	font-weight: bold;
-	color: -webkit-link;
+	color: blue;
 }
 
 body
@@ -237,4 +237,22 @@ nav
         min-width: 200px;
         max-width: 1250px;
     }
+}
+
+.dl_button
+{
+    background-color: #C593CB;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.dl_button:hover
+{
+    text-decoration: underline;
+}
+
+#download
+{
+    display: block;
+    text-align: center;
 }
