@@ -82,6 +82,28 @@ footer
     margin-right: auto;
 }
 
+.indexThumb
+{
+	float: left;
+	padding-right: 5px;
+}
+
+.indexTitle
+{
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+.indexDescript
+{
+	margin-top: 5px;
+}
+
+.indexTitle > a
+{
+	font-size: 20px;
+}
+
 .floatClear
 {
     clear: both;
@@ -255,4 +277,41 @@ nav
 {
     display: block;
     text-align: center;
+}
+
+/* Pattern bg stuff */
+.pattern_mode {
+	background-image: url("bg.png");
+}
+
+.pattern_mode_toggle
+{
+	float: right;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	
+}
+
+.pattern_mode_toggle > img {
+	vertical-align: middle;
+	
+}
+
+.pattern_mode_toggle > button {
+	vertical-align: middle;
+}
+
+
+.pattern_mode_button
+{
+	padding-top: 2px;
+	border: none;
+	background: #f8daf3;
+	border-radius: 5px;
+}
+
+img.pattern_mode_img
+{
+	max-height: 32px;
 }

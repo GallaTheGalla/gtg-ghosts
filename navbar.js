@@ -1,5 +1,3 @@
-//Many thanks to andrews05 in the EV Nova Discord for helping me with the initial setup for this! I've made lots of changes at this point, but it really helped me get a grasp on this.
-
 let islocal = location.protocol == "https:" ? '' : '.html';
 let ishomepage = 1;
 if (!(location.pathname.endsWith("gtg-ghosts/index.html") || location.pathname.endsWith("gtg-ghosts/")))
@@ -8,6 +6,15 @@ if (!(location.pathname.endsWith("gtg-ghosts/index.html") || location.pathname.e
 }
 
 
+let links = [
+	{path: 'index', title: 'Home'},
+	{path: 'ghosts/index', title: 'Ghosts'},
+	{path: 'shells/index', title: 'Shells'},
+	{path: 'balloons/index', title: 'Balloons'},
+	{path: 'misc_index', title: 'Misc'}
+];
+
+/*
 let links = [
 	{path: 'index', title: 'Home'},
 	{title: 'Ghosts', sublinks:[
@@ -41,7 +48,9 @@ let links = [
 		{path: 'balloons/snail_balloon', title: "snail_balloon"},
 		{path: 'balloons/squidloon', title: "squidloon"},
 	]},
+
 ];
+*/
 
 let deepness = 0;
 
@@ -119,10 +128,73 @@ function fixLocalLinks()
 	}
 }
 
+function makeFooter()
+{
+	let path = '';
+	for (let i = 0; i < deepness; i++)
+	{
+		path += "../";
+	}
+	
+	return `<div class="centerreg">
+			<a href="https://twitter.com/gallathegalla"><img src="${path}twitterbutton.png" alt="Find me on Twitter" class="sBs"></a>   <a href="https://www.pillowfort.social/Galla"><img src="${path}pillowfortbutton.png" alt="Find me on Pillowfort" class="sBs"></a>   <a href="https://ukadon.shillest.net/@gallathegalla"><img src="${path}mastodonbutton.png" alt="Find me on Mastodon" class="sBs"></a>   <a href="https://ko-fi.com/gallathegalla"><img src="${path}kofibutton.png" alt="Support me on Ko-Fi" class="sBs"></a>
+			<div class="pattern_mode_toggle"><button onclick="togglePatternMode()" class="pattern_mode_button"><div id="pattern_button"></div></button></div>
+			<br></div>`;
+}
+
 findDeepness();
 document.getElementById('navbar').innerHTML = links.map(linkHTML).join('');
+document.getElementById('footer').innerHTML = makeFooter();
 
 if (!islocal)
 {
 	fixLocalLinks();
+}
+
+//Pattern mode stuff, thank you https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode and https://stackoverflow.com/questions/60037491/how-to-save-cookies-for-dark-light-mode-toggle !!!
+
+// On page load set the theme.
+(function() {
+	let path = '';
+	for (let i = 0; i < deepness; i++)
+	{
+		path += "../";
+	}
+	
+	let onpageLoad = localStorage.getItem("theme") || "purple";
+	let element = document.body;
+	element.classList.add(onpageLoad);
+	
+	if (onpageLoad == "pattern_mode")
+	{
+		document.getElementById('pattern_button').innerHTML = `<img src="${path}pattern_on.png" class="pattern_mode_img">`;
+	}
+	else
+	{
+		document.getElementById('pattern_button').innerHTML = `<img src="${path}pattern_off.png" class="pattern_mode_img">`;
+	}
+	
+})();
+
+function togglePatternMode() {
+	let path = '';
+	for (let i = 0; i < deepness; i++)
+	{
+		path += "../";
+	}
+	
+	let element = document.body;
+	element.classList.toggle("pattern_mode");
+	
+	let theme = localStorage.getItem("theme");
+	if (theme && theme === "pattern_mode")
+	{
+		localStorage.setItem("theme", "purple");
+		document.getElementById('pattern_button').innerHTML = `<img src="${path}pattern_off.png" class="pattern_mode_img">`;
+	}
+	else
+	{
+		localStorage.setItem("theme", "pattern_mode");
+		document.getElementById('pattern_button').innerHTML = `<img src="${path}pattern_on.png" class="pattern_mode_img">`;
+	}
 }
