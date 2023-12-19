@@ -2,6 +2,7 @@
 let temp = location.pathname;
 temp = temp.split("/");
 let pagetype = temp[temp.length - 2];
+let pagename = temp[temp.length - 1];
 if (!(pagetype == "reviews" || pagetype == "history"))
 {
 	pagetype = "other";
@@ -51,10 +52,10 @@ else if (pagetype == "history")
 else
 {
 	reviews_display += makeReviews(5);
-	reviews_display += `<h2 style="text-align:center"><a href="${reviewurl}">Leave A Review</a> | <a href="reviews/i_often_dream_of_marigolds.html">See All Reviews (${reviews.length})</a></h2>`;
+	reviews_display += `<h2 style="text-align:center"><a href="${reviewurl}">Leave A Review</a> | <a href="reviews/${pagename}">See All Reviews (${reviews.length})</a></h2>`;
 	
 	history_display += makeHistory(5);
-	history_display += `<h2 style="text-align:center"><a href="history/i_often_dream_of_marigolds.html">View Full History (${version_history.length})</a></h2>`;
+	history_display += `<h2 style="text-align:center"><a href="history/${pagename}">View Full History (${version_history.length})</a></h2>`;
 }
 
 if (pagetype != "history")
