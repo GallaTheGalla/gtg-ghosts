@@ -90,8 +90,9 @@ footer
 
 .indexTitle
 {
-	padding-top: 5px;
-	margin-bottom: 5px;
+    padding-top: 2px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .indexDescript
