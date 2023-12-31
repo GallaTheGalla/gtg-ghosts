@@ -1,4 +1,4 @@
-let reviewurl = "";
+let reviewurl = "https://forms.gle/Lnh1oSC79jNtLLU18";
 
 let reviews = [
 	
