@@ -316,3 +316,23 @@ img.pattern_mode_img
 {
 	max-height: 32px;
 }
+
+
+/* Left-side line for reviews */
+.review
+{
+	border: solid #C593CB;
+	border-width: 0 0 0 3px;
+}
+
+.reviewText
+{
+	padding-left: 4px;
+}
+
+
+.halfWidthImg
+{
+	max-height: 200px;
+	border-radius: 5px;
+}

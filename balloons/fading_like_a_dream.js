@@ -2,8 +2,14 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"Fading Like A Dream is a very sleek and lightweight balloon, well suited for the ghost it pairs with. The aesthetic is simple and clean, with excellent readability, while still being very thematic. A lovely addition to any balloon collection." <i>~ Zichqec, June 9, 2023</i>`,
-	`"omg you guys can you believe galla made a simple balloon? in this day and age!? no extra sizes or customization to be found anywhere! hard drives everywhere will sing praises at the tiny footprint this balloon leaves!!" <i>~ Zichqec, June 9, 2023</i>`
+	{
+		review: `Fading Like A Dream is a very sleek and lightweight balloon, well suited for the ghost it pairs with. The aesthetic is simple and clean, with excellent readability, while still being very thematic. A lovely addition to any balloon collection.`,
+		attribution: "Zichqec, June 9, 2023"
+	},
+	{
+		review: `omg you guys can you believe galla made a simple balloon? in this day and age!? no extra sizes or customization to be found anywhere! hard drives everywhere will sing praises at the tiny footprint this balloon leaves!!`,
+		attribution: "Zichqec, June 9, 2023"
+	}
 	
 ]
 

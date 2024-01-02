@@ -2,9 +2,18 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"squid squid squid squid squid" <i>~ Zichqec, October 14, 2022</i>`,
-	`"the only ghost you'll ever need in your life. it wiggles! it's colorful! it asks obnoxious questions! what more could you ask for?" <i>~ Zichqec, October 15, 2022</i>`,
-	`"&#10024;<i>colours</i>&#10024;" <i>~ StrangelyKai, October 15, 2022</i>`
+	{
+		review: `squid squid squid squid squid`,
+		attribution: "Zichqec, October 14, 2022"
+	},
+	{
+		review: `the only ghost you'll ever need in your life. it wiggles! it's colorful! it asks obnoxious questions! what more could you ask for?`,
+		attribution: "Zichqec, October 15, 2022"
+	},
+	{
+		review: `&#10024;<i>colours</i>&#10024;`,
+		attribution: "StrangelyKai, October 15, 2022"
+	}
 	
 ]
 

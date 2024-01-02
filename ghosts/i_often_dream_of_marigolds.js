@@ -1,8 +1,20 @@
 let reviewurl = "https://forms.gle/48uskUSVAMu2cWQs6";
 
+let latest_version = "";
+if (typeof ghost_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
+{
+	latest_version = ghost_downloads["i_often_dream_of_marigolds"]
+	document.getElementById('download').innerHTML = `<a href="${latest_version}" class="dl_button">Download latest version</a>`;
+}
+
+
+
 let reviews = [
 	
-	`"I Often Dream Of Marigolds is an exceptional experience crafted by a master. Detailed choices and a compelling story will keep you hooked as you work to unravel the mystery of who you're talking to, where you are, and why you're there.<br><br>I cried over it, and you should too." <i>~ Zichqec, June 9, 2023</i>`
+	{
+		review: `I Often Dream Of Marigolds is an exceptional experience crafted by a master. Detailed choices and a compelling story will keep you hooked as you work to unravel the mystery of who you're talking to, where you are, and why you're there.<br><br>I cried over it, and you should too.`,
+		attribution: "Zichqec, June 9, 2023"
+	}
 	
 ]
 
@@ -15,7 +27,7 @@ let version_history = [
 	},
 	{
 		version: "v1.0.0",
-		download: "https://github.com/GallaTheGalla/i_often_dream_of_marigolds/releases/download/v1.0.0/i_often_dream_of_marigolds_v1.0.0.nar",
+		download: latest_version,
 		comment: "Official release."
 	}
 	

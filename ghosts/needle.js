@@ -2,10 +2,22 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"NEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDLE" <i>~ Claw Grasshammer, October 15, 2022</i>`,
-	`"i want needle merch where is my needle merch" <i> ~ Claw Grasshammer, November 8, 2022</i>`,
-	`"sometimes needle talks to me and i think. yeah. i agree. not agree in a way that is actually agreeing but like, emotionally. i agree." <i>~ Starli Coffeeman, November 8, 2022</i>`,
-	`"wow omg they heard my request and are now distributing needle merch in craft stores everywhere" <i>~ Claw Grasshammer, November 8, 2022</i>`
+	{
+		review: `NEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDLE`,
+		attribution: "Claw Grasshammer, October 15, 2022"
+	},
+	{
+		review: `i want needle merch where is my needle merch`,
+		attribution: "Claw Grasshammer, November 8, 2022"
+	},
+	{
+		review: `sometimes needle talks to me and i think. yeah. i agree. not agree in a way that is actually agreeing but like, emotionally. i agree.`,
+		attribution: "Starli Coffeeman, November 8, 2022"
+	},
+	{
+		review: `wow omg they heard my request and are now distributing needle merch in craft stores everywhere`,
+		attribution: "Claw Grasshammer, November 8, 2022"
+	}
 	
 ]
 

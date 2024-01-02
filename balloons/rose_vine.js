@@ -2,7 +2,10 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"a cool rose. a cool vine. what more could one ask for?" <i>~ Zichqec, October 18, 2022</i>`
+	{
+		review: `a cool rose. a cool vine. what more could one ask for?`,
+		attribution: "Zichqec, October 18, 2022"
+	}
 	
 ]
 

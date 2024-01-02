@@ -2,7 +2,10 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"a balloon of balloons! so many balloons my head might explode!!! :exploding_head:" <i>~ Zichqec, October 15, 2022</i>`
+	{
+		review: `a balloon of balloons! so many balloons my head might explode!!! :exploding_head:`,
+		attribution: "Zichqec, October 15, 2022"
+	}
 	
 ]
 

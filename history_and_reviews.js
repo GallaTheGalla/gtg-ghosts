@@ -15,7 +15,7 @@ function makeReviews(max)
 	let output = "";
 	for (i = 0 ; i < input.length && (i < max || max < 0); i++)
 	{
-		output += `<p>${input[i]}</p>`;
+		output += `<div class="review"><p class="reviewText">${input[i].review} ~ ${input[i].attribution}</p></div>`;
 	}
 	return output;
 }
@@ -24,7 +24,7 @@ function makeHistory(max)
 {
 	let input = version_history
 	input.reverse();
-	let output = `<p>Click the version number to download!</p>`;
+	let output = ``;
 	for (i = 0 ; i < input.length && (i < max || max < 0); i++)
 	{
 		output += `
@@ -52,7 +52,7 @@ else if (pagetype == "history")
 else
 {
 	reviews_display += makeReviews(5);
-	reviews_display += `<h2 style="text-align:center"><a href="${reviewurl}">Leave A Review</a> | <a href="reviews/${pagename}">See All Reviews (${reviews.length})</a></h2>`;
+	reviews_display += `<h2 style="text-align:center"><a href="${reviewurl}" target="_blank">Leave A Review</a> | <a href="reviews/${pagename}">See All Reviews (${reviews.length})</a></h2>`;
 	
 	history_display += makeHistory(5);
 	history_display += `<h2 style="text-align:center"><a href="history/${pagename}">View Full History (${version_history.length})</a></h2>`;

@@ -2,8 +2,14 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"rocks!!!" <i>~ Zichqec, October 14, 2022</i>`,
-	`"so many clothes to choose from, i can't decide! being this cute is illegal <i>i'm calling the snail cops!!</i>" <i>~ Zichqec, October 15, 2022</i>`
+	{
+		review: `rocks!!!`,
+		attribution: "Zichqec, October 14, 2022"
+	},
+	{
+		review: `so many clothes to choose from, i can't decide! being this cute is illegal <i>i'm calling the snail cops!!`,
+		attribution: "Zichqec, October 15, 2022"
+	}
 	
 ]
 

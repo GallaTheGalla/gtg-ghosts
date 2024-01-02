@@ -2,7 +2,10 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"a cute balloon for a cute snail! :smiling_face_with_3_hearts:" <i>~ Zichqec, October 15, 2022</i>`
+	{
+		review: `a cute balloon for a cute snail! :smiling_face_with_3_hearts:`,
+		attribution: "Zichqec, October 15, 2022"
+	}
 	
 ]
 

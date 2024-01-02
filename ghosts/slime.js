@@ -2,8 +2,14 @@ let reviewurl = "https://forms.gle/Lnh1oSC79jNtLLU18";
 
 let reviews = [
 	
-	`"blip blop. squish friend." <i>~ Zichqec, October 14, 2022</i>`,
-	`"squish squorsh. a moist friend. here to decorate your desktop." <i>~ Zichqec, October 15, 2022</i>`
+	{
+		review: `blip blop. squish friend.`,
+		attribution: "Zichqec, October 14, 2022"
+	},
+	{
+		review: `squish squorsh. a moist friend. here to decorate your desktop.`,
+		attribution: "Zichqec, October 15, 2022"
+	}
 	
 ]
 

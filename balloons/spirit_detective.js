@@ -2,8 +2,14 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"so round... so square! so fluff!!! so many options omg!!!!!!!" <i>~ Zichqec, November 13, 2022</i>`,
-	`"very extensive and extremely pleasant to look at. there was a lot of effort put into this, which i know because i watched the creation (read: suffering) in real time!" <i>~ Ayaka, November 13, 2022</i>`
+	{
+		review: `so round... so square! so fluff!!! so many options omg!!!!!!!`,
+		attribution: "Zichqec, November 13, 2022"
+	},
+	{
+		review: `very extensive and extremely pleasant to look at. there was a lot of effort put into this, which i know because i watched the creation (read: suffering) in real time!`,
+		attribution: "Ayaka, November 13, 2022"
+	}
 	
 ]
 

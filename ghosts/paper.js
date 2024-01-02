@@ -2,7 +2,10 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"strangely unsettling games of rock-paper-scissors???" <i>~ Zichqec, October 15, 2022</i>`
+	{
+		review: `strangely unsettling games of rock-paper-scissors???`,
+		attribution: "Zichqec, October 15, 2022"
+	}
 	
 ]
 

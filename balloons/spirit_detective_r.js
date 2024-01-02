@@ -2,7 +2,10 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`"round rounds round round round, but it still has fluff!!!" <i>~ Zichqec, November 13, 2022</i>`
+	{
+		review: `round rounds round round round, but it still has fluff!!!`,
+		attribution: "Zichqec, November 13, 2022"
+	}
 	
 ]
 

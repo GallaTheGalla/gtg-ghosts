@@ -2,7 +2,10 @@ let reviewurl = "";
 
 let reviews = [
 	
-	`every ghost looks great paired with this balloon! it'll remind you of your all-time favorite ghost, even if you don't have it open for some strange reason!" <i>~ Claw Grasshammer, October 15, 2022</i>`
+	{
+		review: `every ghost looks great paired with this balloon! it'll remind you of your all-time favorite ghost, even if you don't have it open for some strange reason!`,
+		attribution: "Claw Grasshammer, October 15, 2022"
+	}
 	
 ]
 
