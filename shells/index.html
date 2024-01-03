@@ -29,13 +29,13 @@
 	
 	<div class="indexThumb" id="dollhouse_drinks"><img src="img/dollhouse_drinks_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../shells/dollhouse_drinks.html">Dollhouse Drinks</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="dollhouse_drinks_download"></span><br>
 		<i>"Tiny drinks for tiny thirst."</i></p>
 	<div class="floatClear"></div>
 	
 	<div class="indexThumb" id="slimedration"><img src="img/slimedration_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../shells/slimedration.html">Slimedration</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="slimedration_download"></span><br>
 		<i>"Like a grape that screams."</i></p>
 	<div class="floatClear"></div>
 	
@@ -44,7 +44,7 @@
 	
 	<div class="indexThumb" id="correctly_drawn_flamingo"><img src="img/correctly_drawn_flamingo_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../shells/correctly_drawn_flamingo.html">Correctly Drawn Flamingo</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="correctly_drawn_flamingo_download"></span><br>
 		<i>"ALL OTHERS, WHILE BEAUTIFUL, ARE NOT CORRECT!!!"</i></p>
 	<div class="floatClear"></div>
 	
@@ -54,25 +54,25 @@
 	
 	<div class="indexThumb" id="carved"><img src="img/carved_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../ghosts/carved.html">Carved</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="carved_download"></span><br>
 		<i>"Made of the freshest bones."</i></p>
 	<div class="floatClear"></div>
 	
 	<div class="indexThumb" id="eggdle"><img src="img/eggdle_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../shells/eggdle.html">Eggdle</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="eggdle_download"></span><br>
 		<i>"merry eggster"</i></p>
 	<div class="floatClear"></div>
 	
 	<div class="indexThumb" id="forbidden_galla_shell"><img src="img/forbidden_galla_shell_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../ghosts/forbidden_galla_shell.html">Forbidden Galla Shell</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="forbidden_galla_shell_download"></span><br>
 		<i>"WHERE DID YOU GET THIS!?!?!?"</i></p>
 	<div class="floatClear"></div>
 	
 	<div class="indexThumb" id="polished"><img src="img/polished_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../shells/polished.html">Polished</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="polished_download"></span><br>
 		<i>"Clean and tidy for picture day."</i></p>
 	<div class="floatClear"></div>
 	
@@ -82,6 +82,28 @@
 <footer><div id="footer" class="footer"></div></footer>
 
 <script src="../navbar.js"></script>
+
+<script src="../downloads.js"></script>
+
+<script>
+
+function MakeButton(download)
+{
+	return `<a href="${download}">Download without spoilers</a>`;
+}
+
+document.getElementById('dollhouse_drinks_download').innerHTML = MakeButton(shell_downloads["dollhouse_drinks"]);
+document.getElementById('slimedration_download').innerHTML = MakeButton(shell_downloads["slimedration"]);
+
+document.getElementById('correctly_drawn_flamingo_download').innerHTML = MakeButton(shell_downloads["correctly_drawn_flamingo"]);
+
+document.getElementById('carved_download').innerHTML = MakeButton(shell_downloads["carved"]);
+document.getElementById('eggdle_download').innerHTML = MakeButton(shell_downloads["eggdle"]);
+document.getElementById('forbidden_galla_shell_download').innerHTML = MakeButton(shell_downloads["forbidden_galla_shell"]);
+document.getElementById('polished_download').innerHTML = MakeButton(shell_downloads["polished"]);
+
+</script>
+
 </body>
 
 </html>

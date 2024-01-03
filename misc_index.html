@@ -28,7 +28,7 @@
 	<h2 id="calendar_skins">Calendar Skins</h2>
 	<div class="indexThumb" id="wedges_calendar_skin_pack"><img src="calendars/img/wedges_calendar_skin_pack_thumbnail.png"></div>
 		<p class="indexTitle"><a href="calendar_skins/wedges_calendar_skin_pack.html">Wedges Calendar Skin Pack</a></p>
-		<p class="indexDescript"><a href="#">Download without spoilers</a><br>
+		<p class="indexDescript"><span id="wedges_calendar_skin_pack_download"></span><br>
 		<i>"Wedges: for all of your triangle needs (unless it's more than 365 triangles) (don't ask about leap years) (but yes those are covered too)."</i></p>
 	<div class="floatClear"></div>
 </article>
@@ -37,6 +37,18 @@
 <footer><div id="footer" class="footer"></div></footer>
 
 <script src="navbar.js"></script>
+<script src="downloads.js"></script>
+
+<script>
+
+function MakeButton(download)
+{
+	return `<a href="${download}">Download without spoilers</a>`;
+}
+
+document.getElementById('wedges_calendar_skin_pack_download').innerHTML = MakeButton(calendar_skin_downloads["wedges_calendar_skin_pack"]);
+
+</script>
 </body>
 
 </html>

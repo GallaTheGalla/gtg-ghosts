@@ -4,9 +4,10 @@ let latest_version = "";
 if (typeof ghost_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
 {
 	latest_version = ghost_downloads["i_often_dream_of_marigolds"]
-	document.getElementById('download').innerHTML = `<a href="${latest_version}" class="dl_button">Download latest version</a>`;
+	
+	if (document.getElementById('download'))
+		document.getElementById('download').innerHTML = `<a href="${latest_version}" class="dl_button">Download latest version</a>`;
 }
-
 
 
 let reviews = [

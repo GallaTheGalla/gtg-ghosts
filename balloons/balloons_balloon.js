@@ -1,5 +1,15 @@
 let reviewurl = "";
 
+let latest_version = "";
+if (typeof balloon_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
+{
+	latest_version = balloon_downloads["balloons_balloon"]
+	
+	if (document.getElementById('download'))
+		document.getElementById('download').innerHTML = `<a href="${latest_version}" class="dl_button">Download latest version</a>`;
+}
+
+
 let reviews = [
 	
 	{
@@ -13,7 +23,7 @@ let version_history = [
 	
 	{
 		version: "Download Balloons Balloon here!",
-		download: "https://ukagaka.zichqec.com/balloon/balloons_balloon",
+		download: latest_version,
 		comment: "The most recent update can be found on Zichqec's site!"
 	}
 	
