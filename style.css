@@ -336,3 +336,9 @@ img.pattern_mode_img
 	max-height: 200px;
 	border-radius: 5px;
 }
+
+.tab
+{
+	margin-left: 20px;
+	color: #823573;
+}

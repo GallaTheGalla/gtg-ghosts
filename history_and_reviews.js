@@ -15,7 +15,7 @@ function makeReviews(max)
 	let output = "";
 	for (i = 0 ; i < input.length && (i < max || max < 0); i++)
 	{
-		output += `<div class="review"><p class="reviewText">${input[i].review} ~ ${input[i].attribution}</p></div>`;
+		output += `<div class="review"><p class="reviewText">${input[i].review}<br><span class="tab">~ ${input[i].attribution}</span></p></div>`;
 	}
 	return output;
 }
