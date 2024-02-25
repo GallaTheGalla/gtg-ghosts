@@ -1,4 +1,4 @@
-let reviewurl = "";
+let reviewurl = "https://forms.gle/sNhWvL9mALTMnBzM8";
 
 let latest_version = "";
 if (typeof shell_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
