@@ -1,4 +1,4 @@
-let reviewurl = "https://forms.gle/Gt8nTkrCwmVt4roXA";
+let reviewurl = "https://docs.google.com/forms/d/e/1FAIpQLSehfAcz8g67NloeEYYvPTivPLazoF7lptN2A7ebspFzOujY5Q/viewform?usp=sf_link";
 
 let latest_version = "";
 if (typeof balloon_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
