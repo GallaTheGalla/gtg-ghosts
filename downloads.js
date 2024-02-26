@@ -23,7 +23,7 @@ let ghost_downloads = {
 
 let shell_downloads = {
 
-	"dollhouse_drinks": "bloons_download",
+	"dollhouse_drinks": "https://github.com/GallaTheGalla/dollhouse_drinks/releases/download/v1.0.0/dollhouse_drinks_v1.0.0.nar",
 	"slimedration": "https://github.com/GallaTheGalla/slimedration/releases/download/v1.0.1/slimedration_v1.0.1.nar",
 	
 	"correctly_drawn_flamingo": "marigold_download",

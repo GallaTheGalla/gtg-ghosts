@@ -1,4 +1,4 @@
-let reviewurl = "https://docs.google.com/forms/d/e/1FAIpQLScfxRcYnRrro_8pcvKp9ncUAbUNiFTMy8KyVYEwt-E5xXjF2g/viewform?usp=sf_link";
+let reviewurl = "https://docs.google.com/forms/d/e/1FAIpQLSe8xIM05wxwGefWfVToEYQG-STon2tRKpptFdsdmckb8oZB-g/viewform?usp=sf_link";
 
 let latest_version = "";
 if (typeof calendar_skin_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error

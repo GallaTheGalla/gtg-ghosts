@@ -28,6 +28,10 @@ let reviews = [
 		review: `wow omg they heard my request and are now distributing needle merch in craft stores everywhere`,
 		attribution: "Claw Grasshammer, November 8, 2022"
 	}
+	{
+		review: `Needle is my precious baby childe and I would do anything for it. I even started a holiday in its honor! That's how much this ghost changed my life.`,
+		attribution: "Claw Grasshammer, January 1, 2024"
+	}
 	
 ]
 
