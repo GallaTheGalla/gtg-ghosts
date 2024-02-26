@@ -42,7 +42,7 @@ let history_display = "";
 if (pagetype == "reviews")
 {
 	reviews_display = makeReviews(-1);
-	document.getElementById('leave_review').innerHTML = `<h2 class="centerreg"><a href="${reviewurl}">Leave A Review</a></h2>`;
+	document.getElementById('leave_review').innerHTML = `<h2 class="centerreg"><a href="${reviewurl}" target="_blank">Leave A Review</a></h2>`;
 	
 }
 else if (pagetype == "history")
