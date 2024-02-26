@@ -1,4 +1,4 @@
-let reviewurl = "https://forms.gle/Lnh1oSC79jNtLLU18";
+let reviewurl = "https://docs.google.com/forms/d/e/1FAIpQLSdd-cHHDqa_2WX2hri45BJ5v1BARjQGRKG1sv8HnICqqcY3_Q/viewform?usp=sf_link";
 
 let latest_version = "";
 if (typeof ghost_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
