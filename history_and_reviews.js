@@ -13,7 +13,7 @@ function makeReviews(max)
 	let input = reviews
 	input.reverse();
 	let output = "";
-	for (i = 0 ; i < input.length && (i < max || max < 0); i++)
+	for (i = 0; i < input.length && (i < max || max < 0); i++)
 	{
 		output += `<div class="review"><p class="reviewText">${input[i].review}<br><span class="tab">~ ${input[i].attribution}</span></p></div>`;
 	}
@@ -25,12 +25,17 @@ function makeHistory(max)
 	let input = version_history
 	input.reverse();
 	let output = ``;
-	for (i = 0 ; i < input.length && (i < max || max < 0); i++)
+	for (i = 0; i < input.length && (i < max || max < 0); i++)
 	{
 		output += `
-		<h2 style="display:inline;"><a href="${input[i].download}">${input[i].version}</a></h2> <p style="display:inline;">${input[i].comment}</p>
-		<br>
-	`;
+		<h2 style="display:inline;"><a href="${input[i].download}">${input[i].version}</a></h2>` //<p style="display:inline;">${input[i].comment}</p>
+		output += `<ul class="changelog">`
+		for (j = 0; j < input[i].changelog.length; j++)
+		{
+			output += `<li>${input[i].changelog[j]}</li>`;
+		}
+		
+		output += `</ul>`;
 	}
 	return output;
 }

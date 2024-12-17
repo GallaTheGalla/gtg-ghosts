@@ -342,3 +342,10 @@ img.pattern_mode_img
 	margin-left: 20px;
 	color: #823573;
 }
+
+/* List spacing adjustments for changelogs */
+.changelog
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
