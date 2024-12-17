@@ -24,7 +24,10 @@ let version_history = [
 	{
 		version: "Download Needloon here!",
 		download: latest_version,
-		comment: "The most recent update can be found on Claw Grasshammer's site!."
+		changelog:
+		[
+			"The most recent update can be found on Claw Grasshammer's site!."
+		]
 	}
 	
 ]

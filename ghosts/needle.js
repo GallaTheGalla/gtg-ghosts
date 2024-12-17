@@ -39,37 +39,58 @@ let version_history = [
 	{
 		version: "v1.0.0",
 		download: "https://github.com/Zichqec/Needle/releases/download/v1.0.0/needle_v1.0.0.nar",
-		comment: "Ghost Jam 2022 release.",
+		changelog:
+		[
+			"Ghost Jam 2022 release.",
+		]
 	},
 	{
 		version: "v1.0.1",
 		download: "https://github.com/Zichqec/Needle/releases/download/v1.0.1/needle_v1.0.1.nar",
-		comment: "Fixed a small issue with the balloon not installing (hopefully).",
+		changelog:
+		[
+			"Fixed a small issue with the balloon not installing (hopefully).",
+		]
 	},
 	{
 		version: "v1.0.2",
 		download: "https://github.com/Zichqec/Needle/releases/download/v1.0.2/needle_v1.0.2.nar",
-		comment: "View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.0.2'>here</a>",
+		changelog:
+		[
+			"View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.0.2'>here</a>",
+		]
 	},
 	{
 		version: "v1.0.3",
 		download: "https://github.com/Zichqec/Needle/releases/download/v1.0.3/needle_v1.0.3.nar",
-		comment: "Disallows illegal names that were causing issues with Needle poking other ghosts if you used them.",
+		changelog:
+		[
+			"Disallows illegal names that were causing issues with Needle poking other ghosts if you used them.",
+		]
 	},
 	{
 		version: "v1.1.0",
 		download: "https://github.com/Zichqec/Needle/releases/download/v1.1.0/needle_v1.1.0.nar",
-		comment: "View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.1.0'>here</a>",
+		changelog:
+		[
+			"View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.1.0'>here</a>",
+		]
 	},
 	{
 		version: "v1.1.1",
 		download: "https://github.com/Zichqec/Needle/releases/download/v1.1.1/needle_v1.1.1.nar",
-		comment: "View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.1.1'>here</a>",
+		changelog:
+		[
+			"View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.1.1'>here</a>",
+		]
 	},
 	{
 		version: "v1.1.2",
 		download: latest_version,
-		comment: "View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.1.2'>here</a>",
+		changelog:
+		[
+			"View changelog <a href='https://github.com/Zichqec/Needle/releases/tag/v1.1.2'>here</a>",
+		]
 	},
 	
 ]

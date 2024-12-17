@@ -24,7 +24,10 @@ let version_history = [
 	{
 		version: "Download snail_balloon here!",
 		download: latest_version,
-		comment: "snail_balloon is only available bundled with Snail."
+		changelog:
+		[
+			"snail_balloon is only available bundled with Snail."
+		]
 	}
 	
 ]

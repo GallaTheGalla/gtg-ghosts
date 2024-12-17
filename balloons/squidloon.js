@@ -24,7 +24,10 @@ let version_history = [
 	{
 		version: "Download squidloon here!",
 		download: latest_version,
-		comment: "squidloon is only available bundled with Squid."
+		changelog:
+		[
+			"squidloon is only available bundled with Squid."
+		]
 	}
 	
 ]

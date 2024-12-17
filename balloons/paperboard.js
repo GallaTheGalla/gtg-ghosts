@@ -24,7 +24,10 @@ let version_history = [
 	{
 		version: "v1.0.0",
 		download: latest_version,
-		comment: "The most recent update can be found on Claw Grasshammer's site!"
+		changelog:
+		[
+			"The most recent update can be found on Claw Grasshammer's site!"
+		]
 	}
 	
 ]

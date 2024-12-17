@@ -24,7 +24,10 @@ let version_history = [
 	{
 		version: "Download TEMPLATE here!",
 		download: latest_version,
-		comment: "The most recent update can be found on Zichqec's site!"
+		changelog:
+		[
+			"The most recent update can be found on Zichqec's site!"
+		]
 	}
 	
 ]

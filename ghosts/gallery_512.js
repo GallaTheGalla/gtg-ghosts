@@ -24,12 +24,18 @@ let version_history = [
 	{
 		version: "v1.0.0",
 		download: "https://github.com/Zichqec/gallery_512/releases/download/v1.0.0/gallery_512_v1.0.0.nar",
-		comment: "Ghost Jam 2023 release.",
+		changelog:
+		[
+			"Ghost Jam 2023 release.",
+		]
 	},
 	{
 		version: "v1.0.1",
 		download: latest_version,
-		comment: "Fix network update url being missing.",
+		changelog:
+		[
+			"Fix network update url being missing.",
+		]
 	},
 	
 ]

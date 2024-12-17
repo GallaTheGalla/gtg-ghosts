@@ -24,7 +24,10 @@ let version_history = [
 	{
 		version: "v1.0.0",
 		download: latest_version,
-		comment: "Initial Release."
+		changelog:
+		[
+			"Initial Release."
+		]
 	}
 	
 ]
