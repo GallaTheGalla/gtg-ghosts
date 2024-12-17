@@ -29,7 +29,7 @@ let version_history = [
 	{
 		version: "v1.0.1",
 		download: latest_version,
-		comment: "Fix network update url being missing",
+		comment: "Fix network update url being missing.",
 	},
 	
 ]
