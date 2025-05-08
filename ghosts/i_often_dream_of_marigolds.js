@@ -26,7 +26,7 @@ let version_history = [
 		download: "https://github.com/GallaTheGalla/i_often_dream_of_marigolds/releases/download/ghost_masquerade_5/i_often_dream_of_marigolds.zip",
 		changelog:
 		[
-			"This version is not set up for updates, as per the Ghost Masquerade rules."
+			"Ghost Masquerade 5 release. This version is not set up for updates, as per the Ghost Masquerade rules."
 		]
 	},
 	{
