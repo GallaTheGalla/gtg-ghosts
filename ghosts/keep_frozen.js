@@ -52,7 +52,7 @@ let version_history = [
 		changelog:
 		[
 			"Several new items to collect, including the new categories 'bug' and 'cold'.",
-			"An additional # items for the dialogue, bringing the total to #.",
+			"An additional 100 entries for the dialogue, bringing the total to 400.",
 			"Ice cubes will no longer count towards your stats if you've had them for less than 5 minutes. This means you will no longer tank your lifetime stats by accidentally opening the ghost and then quickly closing it. You can also repeatedly get new ice cubes from the menu to cycle for items that you want.",
 			"The way items are displayed is now handled differently, and should make items easier to add in the future. This does mean that upon updating, all your existing items will change position, but in the future this should be less likely to happen again.",
 			"There is now a button in the settings menu to reset the position of all items on screen to the position of the ice cube. This only appears if there are items currently displayed.",
