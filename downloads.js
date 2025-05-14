@@ -10,6 +10,7 @@ let ghost_downloads = {
 	"i_often_dream_of_marigolds": "https://github.com/GallaTheGalla/i_often_dream_of_marigolds/releases/download/v1.0.0/i_often_dream_of_marigolds_v1.0.0.nar",
 	"if_i_cant_have_shrimp_no_one_can": "https://github.com/GallaTheGalla/if_i_cant_have_shrimp_no_one_can/releases/download/v1.1.1/if_i_cant_have_shrimp_no_one_can_v1.1.1.nar",
 	"keep_frozen": "https://github.com/Zichqec/KEEP_FROZEN/releases/download/v1.1.2/KEEP_FROZEN_v1.1.2.nar",
+	"literally_just_a_mess_why_did_you_download_this": "https://github.com/Zichqec/literally_just_a_mess_why_did_you_download_this/releases/download/v1.0.0/literally_just_a_mess_why_did_you_download_this_v1.0.0.nar",
 	"needle": "https://github.com/Zichqec/Needle/releases/download/v1.1.4/needle_v1.1.4.nar",
 	"noodle": "marigold_download",
 	"pancake_gwrawrurulrg": "marigold_download",
