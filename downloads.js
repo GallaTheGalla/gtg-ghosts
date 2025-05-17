@@ -12,7 +12,7 @@ let ghost_downloads = {
 	"keep_frozen": "https://github.com/Zichqec/KEEP_FROZEN/releases/download/v1.1.2/KEEP_FROZEN_v1.1.2.nar",
 	"literally_just_a_mess_why_did_you_download_this": "https://github.com/Zichqec/literally_just_a_mess_why_did_you_download_this/releases/download/v1.0.0/literally_just_a_mess_why_did_you_download_this_v1.0.0.nar",
 	"needle": "https://github.com/Zichqec/Needle/releases/download/v1.1.4/needle_v1.1.4.nar",
-	"noodle": "marigold_download",
+	"noodle": "https://github.com/Zichqec/noodle/releases/download/v1.0.3/noodle_v1.0.3.nar",
 	"pancake_gwrawrurulrg": "marigold_download",
 	"paper": "https://ukagaka.zichqec.com/ghost/paper",
 	"please_arrive_15_minutes_before_your_scheduled_interview_time": "marigold_download",

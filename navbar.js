@@ -11,6 +11,7 @@ let links = [
 	{path: 'ghosts/index', title: 'Ghosts'},
 	{path: 'shells/index', title: 'Shells'},
 	{path: 'balloons/index', title: 'Balloons'},
+	{path: 'calendars/index', title: 'Calendars'},
 	{path: 'misc_index', title: 'Misc'}
 ];
 
