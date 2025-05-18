@@ -30,11 +30,40 @@ let reviews = [
 let version_history = [
 	
 	{
-		version: "Download Squid here!",
+		version: "v1.0.0",
+		download: "https://github.com/GallaTheGalla/squid_gc/releases/download/v1.0.0/squid_gc_v1.0.0.nar",
+		changelog:
+		[
+			"Low-key adorable low-key threatening",
+			"Squid offers its vast knowledge of the multiverse, the incredible ability to morph its colors, and can even keep track of the fickle human creation that is time."
+		]
+	},
+	{
+		version: "v1.0.1",
+		download: "https://github.com/GallaTheGalla/squid_gc/releases/download/v1.0.1/squid_gc_v1.0.1.nar",
+		changelog:
+		[
+			"Timer bug patch"
+		]
+	},
+	{
+		version: "v1.0.2",
+		download: "https://github.com/GallaTheGalla/squid_gc/releases/download/v1.0.2/squid_gc_v1.0.2.nar",
+		changelog:
+		[
+			"Fixed timer opening menu when it shouldn't. Fixed envelopes."
+		]
+	},
+	{
+		version: "v1.0.3",
 		download: latest_version,
 		changelog:
 		[
-			"The most recent update can be found on Changeside's site!"
+			"New homeurl to direct to this repo. Squid from previous versions will not update to this version automatically.",
+			"File directory has been renamed from gc_squid to squid_gc.",
+			"craftman has been renamed from galla_change to Galla & Change.",
+			"Adjusted shell code for smoother animations.",
+			"Fixed dialogue when unminimizing Squid."
 		]
 	}
 	

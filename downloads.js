@@ -13,12 +13,12 @@ let ghost_downloads = {
 	"literally_just_a_mess_why_did_you_download_this": "https://github.com/Zichqec/literally_just_a_mess_why_did_you_download_this/releases/download/v1.0.0/literally_just_a_mess_why_did_you_download_this_v1.0.0.nar",
 	"needle": "https://github.com/Zichqec/Needle/releases/download/v1.1.4/needle_v1.1.4.nar",
 	"noodle": "https://github.com/Zichqec/noodle/releases/download/v1.0.3/noodle_v1.0.3.nar",
-	"pancake_gwrawrurulrg": "marigold_download",
+	"pancake_gwrawrurulrg": "https://github.com/GallaTheGalla/pancake_gwrawrurulrg/releases/download/v1.0.0/pancake_gwrawrurulrg_v1.0.0.nar",
 	"paper": "https://ukagaka.zichqec.com/ghost/paper",
 	"please_arrive_15_minutes_before_your_scheduled_interview_time": "marigold_download",
-	"slime": "https://www.dropbox.com/s/diocrjbo8gdp2yn/slime_ghost.nar?dl=0",
-	"snail": "https://changeside.github.io/?tab=snail",
-	"squid": "https://changeside.github.io/?tab=squid",
+	"slime": "https://github.com/GallaTheGalla/slime_ghost/releases/download/v1.0.0/slime_ghost.nar",
+	"snail": "https://github.com/GallaTheGalla/snail_gcm/releases/download/v1.0.2/snail_gcm_v1.0.2.nar",
+	"squid": "https://github.com/GallaTheGalla/squid_gc/releases/download/v1.0.3/squid_gc_v1.0.3.nar",
 	"ssp_angel": "marigold_download"
 
 }
