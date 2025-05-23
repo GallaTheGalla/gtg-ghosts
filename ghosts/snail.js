@@ -1,4 +1,4 @@
-let reviewurl = "https://docs.google.com/forms/d/e/1FAIpQLSetmXioWBC87-Ao5Px2jK9IfgxqTYeOGMB3lqeowiT690wJWw/viewform?usp=sf_link";
+let reviewurl = "https://docs.google.com/forms/d/e/1FAIpQLSetmXioWBC87-Ao5Px2jK9IfgxqTYeOGMB3lqeowiT690wJWw/viewform";
 
 let latest_version = "";
 if (typeof ghost_downloads != "undefined") //Check if we're on a page that needs this info, to avoid an error
@@ -17,7 +17,7 @@ let reviews = [
 		attribution: "Zichqec, October 14, 2022"
 	},
 	{
-		review: `so many clothes to choose from, i can't decide! being this cute is illegal <i>i'm calling the snail cops!!`,
+		review: `so many clothes to choose from, i can't decide! being this cute is illegal <i>i'm calling the snail cops!!</i>`,
 		attribution: "Zichqec, October 15, 2022"
 	}
 	

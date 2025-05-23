@@ -57,11 +57,11 @@ let version_history = [
 			"The way items are displayed is now handled differently, and should make items easier to add in the future. This does mean that upon updating, all your existing items will change position, but in the future this should be less likely to happen again.",
 			"There is now a button in the settings menu to reset the position of all items on screen to the position of the ice cube. This only appears if there are items currently displayed.",
 			"There is now a button in the settings menu to hide all visible items. This only appears if there are items currently displayed.",
-			"Ice cube now tracks how many times you have poked it with Needle.",
+			"Ice cube now tracks how many times you have poked it with <a href='https://gallathegalla.github.io/gtg-ghosts/ghosts/needle.html'>Needle</a>.",
 			"Ice cube now has a reaction when poked by Needle, though you may not notice it straight away.",
 			"Similarly, it now has a reaction if you refuse to put it in the freezer when asked.",
 			"The way new items are chosen has been changed to be more random, to avoid items being too evenly distributed. When drawing a new item, the previous 5 items will not be chosen. Otherwise, it is random.",
-			"Added some QOL features from the Simplicity Template (Update dialogue, install dialogue, etc.).",
+			"Added some QOL features from the <a href='https://ukagaka.zichqec.com/template/simplicity_template'>Simplicity Template</a> (Update dialogue, install dialogue, etc.).",
 			"Updated the YAYA dic files.",
 		]
 	},
@@ -70,7 +70,7 @@ let version_history = [
 		download: "https://github.com/Zichqec/KEEP_FROZEN/releases/download/v1.1.1/KEEP_FROZEN_v1.1.1.nar",
 		changelog:
 		[
-			"Fixed an issue where a Needle-related easter egg was not initialized properly and would generate a blank entry. If you were already affected by this bug, this patch should correct the problem!",
+			"Fixed an issue where a <a href='https://gallathegalla.github.io/gtg-ghosts/ghosts/needle.html'>Needle</a>-related easter egg was not initialized properly and would generate a blank entry. If you were already affected by this bug, this patch should correct the problem!",
 		]
 	},
 	{
@@ -78,7 +78,7 @@ let version_history = [
 		download: latest_version,
 		changelog:
 		[
-			"Added custom calibration for the plugin Spectre.",
+			"Added custom calibration for the plugin <a href='https://gallathegalla.github.io/gtg-ghosts/plugin/spectre.html'>Spectre</a>.",
 			"Cubes that have existed for a negative amount of time will no longer be recorded.",
 			"Added one randomtalk.",
 			"Some minor menu adjustments.",

@@ -43,7 +43,7 @@ let version_history = [
 		download: "https://github.com/Zichqec/noodle/releases/download/v1.0.2/noodle_v1.0.2.nar",
 		changelog:
 		[
-			"Fixed an issue where SSP would crash if Needle was also open and overlapped more than one ghost at a time",
+			"Fixed an issue where SSP would crash if <a href='https://gallathegalla.github.io/gtg-ghosts/ghosts/needle.html'>Needle</a> was also open and overlapped more than one ghost at a time",
 			"Fixed an issue where the firstboot/boot text would disappear too quickly if Needle was open",
 		]
 	},
@@ -52,7 +52,7 @@ let version_history = [
 		download: latest_version,
 		changelog:
 		[
-			"Added custom calibration for the plugin Spectre.",
+			"Added custom calibration for the plugin <a href='https://gallathegalla.github.io/gtg-ghosts/plugin/spectre.html'>Spectre</a>.",
 			"Added a couple new dialogues.",
 			"Fixed a typo.",
 		]

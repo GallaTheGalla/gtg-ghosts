@@ -53,7 +53,7 @@ let version_history = [
 		download: latest_version,
 		changelog:
 		[
-			"Added custom calibration for the plugin Spectre.",
+			"Added custom calibration for the plugin <a href='https://gallathegalla.github.io/gtg-ghosts/plugin/spectre.html'>Spectre</a>.",
 		]
 	}
 	

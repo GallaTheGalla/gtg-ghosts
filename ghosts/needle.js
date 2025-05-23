@@ -68,7 +68,7 @@ let version_history = [
 			"Fixed nicknames being generated on boot when no username was set.",
 			"Fixed the invisible kero character not being cleared properly.",
 			"Fixed balloon sometimes freaking out when Needle was near the edge of the screen.",
-			"Added events for Tama.",
+			"Added events for <a href='https://github.com/YAYA-shiori/tama'>Tama</a>.",
 			"Misc improvements.",
 		]
 	},
@@ -133,10 +133,10 @@ let version_history = [
 		changelog:
 		[
 			"Added 200 dialogues, bringing the total to 1000.",
-			"Added custom calibration for the plugin Spectre.",
+			"Added custom calibration for the plugin <a href='https://gallathegalla.github.io/gtg-ghosts/plugin/spectre.html'>Spectre</a>.",
 			"Fixed a bug where Needle wouldn't properly save the list of what dressups it is currently using.",
-			"Added special behavior for the Blushie shell.",
-			"Added a stamp for the スタンプ帳 (stamp collection) plugin. Currently it's given as one of the random dialogues, so it's rare to get!",
+			"Added special behavior for the <a href='https://gallathegalla.github.io/gtg-ghosts/shells/blushie.html'>Blushie</a> shell.",
+			"Added a stamp for the <a href='http://navy.nm.land.to/post/'>スタンプ帳</a> (stamp collection) plugin. Currently it's given as one of the random dialogues, so it's rare to get!",
 			"A new name mangler type, and a rarity adjustment for one of the existing types.",
 			"Fixed missing craftmanw entries.",
 			"Updated YAYA to Tc571-9.",
@@ -147,7 +147,7 @@ let version_history = [
 		download: latest_version,
 		changelog:
 		[
-			"Fixed an issue with the special behavior for the Blushie shell, where it would bug out chains, and would not respect dialogues which use \C.",
+			"Fixed an issue with the special behavior for the <a href='https://gallathegalla.github.io/gtg-ghosts/shells/blushie.html'>Blushie</a> shell, where it would bug out chains, and would not respect dialogues which use \C.",
 			"Fixed a longstanding bug with a function that generates a 'NEEEEEDLE' of a random length. It was supposed to have a rare chance to be excessively long, and now it finally should! Enjoy.",
 		]
 	}

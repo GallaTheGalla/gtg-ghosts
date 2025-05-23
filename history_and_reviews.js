@@ -59,7 +59,7 @@ else
 	reviews_display += makeReviews(5);
 	reviews_display += `<h2 class="centerreg"><a href="${reviewurl}" target="_blank">Leave A Review</a> | <a href="reviews/${pagename}">See All Reviews (${reviews.length})</a></h2>`;
 	
-	history_display += makeHistory(5);
+	history_display += makeHistory(3);
 	history_display += `<h2 class="centerreg"><a href="history/${pagename}">View Full History (${version_history.length})</a></h2>`;
 }
 

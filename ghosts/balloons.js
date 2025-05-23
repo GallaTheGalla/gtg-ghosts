@@ -40,13 +40,13 @@ let version_history = [
 			"Improved fade in/out, you should no longer be able to interrupt it and have semi-transparent balloons.",
 			"Fixed a bug where the Angry balloon would sometimes reappear when it shouldn't.",
 			"Fixed issue where balloons would sometimes flicker briefly when reappearing.",
-			"Fixed issue where if all balloons were popped by Needle, they wouldn't immediately reappear.",
+			"Fixed issue where if all balloons were popped by <a href='https://gallathegalla.github.io/gtg-ghosts/ghosts/needle.html'>Needle</a>, they wouldn't immediately reappear.",
 			"Fixed issue where you could open the menu while the balloons were all unpopping, and end up with only some or none of them.",
 			"Fixed an issue where if you were on single click mode and double clicked a balloon, it would open the menu while the balloon was popping.",
 			"Improved balloon collision boxes; they should be pixel perfect now.",
 			"Fixed issue where the slim balloon would flicker while using the Customization menu.",
 			"Slightly rearranged the main menu.",
-			"Made the balloon mode toggle only appear if you're using Balloons Balloon.",
+			"Made the balloon mode toggle only appear if you're using <a href='https://gallathegalla.github.io/gtg-ghosts/balloons/balloons_balloon.html'>Balloons Balloon</a>.",
 			"Fixed weird behavior when using other balloons if you had it set to Slim mode.",
 			"Vastly improved the: internal code formatting for dialogues; adding new content will no longer be the death of Zi!",
 			"Updated YAYA to Tc570-2.",
@@ -57,7 +57,7 @@ let version_history = [
 		download: "https://github.com/Zichqec/balloons/releases/download/v1.0.2/balloons_v1.0.2.nar",
 		changelog:
 		[
-			"Fixed an issue in Balloons Balloon, undetected before because of an SSP bug. Please ensure your SSP is up to date and make sure you perform a balloon update!",
+			"Fixed an issue in <a href='https://gallathegalla.github.io/gtg-ghosts/balloons/balloons_balloon.html'>Balloons Balloon</a>, undetected before because of an SSP bug. Please ensure your SSP is up to date and make sure you perform a balloon update!",
 			"Drastically cleaned up some code in the backend, making it much easier to add new dialogue in the future.",
 			"Updated YAYA to Tc571-5.",
 		]
