@@ -15,7 +15,7 @@ let ghost_downloads = {
 	"noodle": "https://github.com/Zichqec/noodle/releases/download/v1.0.3/noodle_v1.0.3.nar",
 	"pancake_gwrawrurulrg": "https://github.com/GallaTheGalla/pancake_gwrawrurulrg/releases/download/v1.0.0/pancake_gwrawrurulrg_v1.0.0.nar",
 	"paper": "https://ukagaka.zichqec.com/ghost/paper",
-	"please_arrive_15_minutes_before_your_scheduled_interview_time": "marigold_download",
+	"please_arrive_15_minutes_before_your_scheduled_interview_time": "https://github.com/Zichqec/please_arrive_15_minutes_before_your_scheduled_interview_time/releases/download/v1.0.0/please_arrive_15_minutes_before_your_scheduled_interview_time_v1.0.0.nar",
 	"slime": "https://github.com/GallaTheGalla/slime_ghost/releases/download/v1.0.0/slime_ghost_v1.0.0.nar",
 	"snail": "https://github.com/GallaTheGalla/snail_gcm/releases/download/v1.0.2/snail_gcm_v1.0.2.nar",
 	"squid": "https://github.com/GallaTheGalla/squid_gc/releases/download/v1.0.3/squid_gc_v1.0.3.nar",
