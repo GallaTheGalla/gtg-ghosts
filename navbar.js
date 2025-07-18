@@ -69,8 +69,15 @@ function findDeepness()
 	}
 	else
 	{
-		path = path.split("gtg-ghosts/");
-		path = path[1];
+		if (islocal)
+		{
+			path = path.split("gtg-ghosts/");
+			path = path[1];
+		}
+		else
+		{
+			path = path.split("/gtg-ghosts");
+		}
 		console.log(`path after split ${path}`);
 		
 		path = path.split("/");
@@ -92,7 +99,7 @@ function linkHTML(link)
 	//Special option for the home tab since we want it not to place an index.html at the end
 	if (link.title == "Home")
 	{
-		let addindex = islocal == ".html" ? 'index' : '';
+		let addindex = islocal ? 'index' : '';
 		console.log(`link.title: ${link.title}`);
 		console.log(`path: ${path}`);
 		console.log(`islocal: ${islocal}`);
