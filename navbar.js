@@ -69,12 +69,9 @@ function findDeepness()
 	}
 	else
 	{
-		if (islocal)
-		{
-			path = path.split("gtg-ghosts/");
-			path = path[1];
-			console.log(`path after split ${path}`);
-		}
+		path = path.split("gtg-ghosts/");
+		path = path[1];
+		console.log(`path after split ${path}`);
 		
 		path = path.split("/");
 		console.log(`path after splitting / ${path}`);
