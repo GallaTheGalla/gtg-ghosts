@@ -30,6 +30,14 @@
 		<p class="indexTitle"><a href="terms_of_use.html">Permissions and Terms of Use</a></p>
 		<i>Rules for use, modification, redistribution, translation, etc. of works found on this website.</i></p>
 	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="spectre"><img src="plugins/img/spectre_thumbnail.png"></div>
+		<br>
+		<p class="indexTitle">Spectre</p>
+		<p class="indexDescript"><span id="spectre_download"></span><br>
+		<i>"Enhances your SSP experience </i>😌<i> It's recommended to use the balloon 'Ghost Balloon'!"</i></p>
+	<div class="floatClear"></div>
+	
 </article>
 </div>
 
@@ -40,7 +48,15 @@
 
 <script>
 
+function MakeButton(download)
+{
+	return `<a href="${download}">Download without spoilers</a>`;
+}
+
+document.getElementById('spectre_download').innerHTML = MakeButton(plugin_downloads["spectre"]);
+
 </script>
+
 </body>
 
 </html>

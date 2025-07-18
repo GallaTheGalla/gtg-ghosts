@@ -73,6 +73,13 @@ let calendar_skin_downloads = {
 
 }
 
+//—————————————————————————— Plugins ——————————————————————————
+let plugin_downloads = {
+
+	"spectre": "https://ukagaka.zichqec.com/plugin/spectre"
+
+}
+
 //—————————————————————————————— Shells ——————————————————————————————
 
 let shell_downloads = {
