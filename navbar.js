@@ -84,10 +84,7 @@ function findDeepness()
 		path = path.split("/");
 		console.log(`path after splitting / ${path}`);
 		deepness = path.length - 1;
-		if (!islocal)
-		{
-			deepness -= 1;
-		}
+		
 		console.log(`deepness ${deepness}`);
 	}
 }
