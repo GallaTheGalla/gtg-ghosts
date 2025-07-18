@@ -31,6 +31,12 @@
 		<i>"Do you believe that a balloon can also be digitized goods?"</i></p>
 	<div class="floatClear"></div>
 	
+	<div class="indexThumb" id="doodle_daydreams"><span id="doodle_daydreams_thumbnail"></span></div>
+		<p class="indexTitle">Doodle Daydreams</p>
+		<p class="indexDescript"><span id="doodle_daydreams_download"></span><br>
+		<i>"A little diversion couldn't hurt... Let's have some adventures, shall we?"</i></p>
+	<div class="floatClear"></div>
+	
 	<div class="indexThumb" id="encore_onto_another_life"><img src="img/encore_onto_another_life_thumbnail.png"></div>
 		<p class="indexTitle"><a href="../ghosts/encore_onto_another_life.html">Encore! Onto Another Life</a></p>
 		<p class="indexDescript"><span id="encore_onto_another_life_download"></span><br>
@@ -126,6 +132,48 @@
 		<p class="indexDescript"><span id="ssp_angel_download"></span><br>
 		<i>"I was gonna pick up some snacks on the way here, but the lines were so long I couldn't wait around!" "Is this why you were late?" "Yeah, late AND snackless! A real tragedy."</i></p>
 	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="under_the_stars"><img src="img/under_the_stars_thumbnail.png"></div>
+		<p class="indexTitle">Under the Stars</p>
+		<p class="indexDescript"><span id="under_the_stars_download"></span><br>
+		<i>"Why don't the stars ever drift down here...? Does something eat them first? Or... do they not die?"</i></p>
+	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="very_fast_snail"><img src="img/very_fast_snail_thumbnail.png"></div>
+		<p class="indexTitle">Very Fast Snail</p>
+		<p class="indexDescript"><span id="very_fast_snail_download"></span><br>
+		<i>"Public Safety Alert: Watch where you step! Sticks aren't the only thing on the ground."</i></p>
+	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="what_it_takes_to_get_published"><img src="img/what_it_takes_to_get_published_thumbnail.png"></div>
+		<p class="indexTitle">What It Takes To Get Published</p>
+		<p class="indexDescript"><span id="what_it_takes_to_get_published_download"></span><br>
+		<i>"Well, well, well. If it isn't my beloved literary agent, back in my humble abode. Let me guess... You're here to check on my progress!"</i></p>
+	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="ye_olde_cursed_tower"><img src="img/ye_olde_cursed_tower_thumbnail.png"></div>
+		<p class="indexTitle">Ye Olde Cursed Tower</p>
+		<p class="indexDescript"><span id="ye_olde_cursed_tower_download"></span><br>
+		<i>"... I was wondering..." "Yes?" "Do you know what happens if the wizard... doesn't want us anymore?" "..." "Will we be let out, do you think?" "... No. I don't think we will." "...... oh......"</i></p>
+	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="zanas_laws"><img src="img/zanas_laws_thumbnail.gif"></div>
+		<p class="indexTitle">Zana's Laws</p>
+		<p class="indexDescript"><span id="zanas_laws_download"></span><br>
+		<i>"I wish I could describe to you how it feels to shape a world, but I believe it is beyond your comprehension... Perhaps one day I will think of a suitable metaphor."</i></p>
+	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="ghost_yaminabe"><img src="img/ghost_yaminabe_thumbnail.png"></div>
+		<p class="indexTitle">ゴースト闇鍋</p>
+		<p class="indexDescript"><span id="ghost_yaminabe_download"></span><br>
+		<i>"Your knees are popping." "Ain't that the truth."</i></p>
+	<div class="floatClear"></div>
+	
+	<div class="indexThumb" id="ghost_yaminabe_okawari"><img src="img/ghost_yaminabe_okawari_thumbnail.png"></div>
+		<p class="indexTitle">ゴースト闇鍋-おかわり</p>
+		<p class="indexDescript"><span id="ghost_yaminabe_okawari_download"></span><br>
+		<i>"Rule #32: Don't bite your cheek." "...? Why do you bring it up?" "You were about to do it. I can tell."</i></p>
+	<div class="floatClear"></div>
 </article>
 </div>
 
@@ -143,6 +191,7 @@ function MakeButton(download)
 }
 
 document.getElementById('balloons_download').innerHTML = MakeButton(ghost_downloads["balloons"]);
+document.getElementById('doodle_daydreams_download').innerHTML = MakeButton(ghost_downloads["doodle_daydreams"]);
 document.getElementById('encore_onto_another_life_download').innerHTML = MakeButton(ghost_downloads["encore_onto_another_life"]);
 document.getElementById('gallery_512_download').innerHTML = MakeButton(ghost_downloads["gallery_512"]);
 document.getElementById('how_to_remember_your_friends_download').innerHTML = MakeButton(ghost_downloads["how_to_remember_your_friends"]);
@@ -159,7 +208,25 @@ document.getElementById('slime_download').innerHTML = MakeButton(ghost_downloads
 document.getElementById('snail_download').innerHTML = MakeButton(ghost_downloads["snail"]);
 document.getElementById('squid_download').innerHTML = MakeButton(ghost_downloads["squid"]);
 document.getElementById('ssp_angel_download').innerHTML = MakeButton(ghost_downloads["ssp_angel"]);
+document.getElementById('under_the_stars_download').innerHTML = MakeButton(ghost_downloads["under_the_stars"]);
+document.getElementById('very_fast_snail_download').innerHTML = MakeButton(ghost_downloads["very_fast_snail"]);
+document.getElementById('what_it_takes_to_get_published_download').innerHTML = MakeButton(ghost_downloads["what_it_takes_to_get_published"]);
+document.getElementById('ye_olde_cursed_tower_download').innerHTML = MakeButton(ghost_downloads["ye_olde_cursed_tower"]);
+document.getElementById('zanas_laws_download').innerHTML = MakeButton(ghost_downloads["zanas_laws"]);
+document.getElementById('ghost_yaminabe_download').innerHTML = MakeButton(ghost_downloads["ghost_yaminabe"]);
+document.getElementById('ghost_yaminabe_okawari_download').innerHTML = MakeButton(ghost_downloads["ghost_yaminabe_okawari"]);
 
+</script>
+
+<script>
+	let doodledaydreamsthumbnail = [
+	
+		"<img src='img/doodle_daydreams_thumbnail_1.png'>",
+		"<img src='img/doodle_daydreams_thumbnail_2.png'>",
+		"<img src='img/doodle_daydreams_thumbnail_3.png'>"
+	
+	];
+	document.getElementById('doodle_daydreams_thumbnail').innerHTML = doodledaydreamsthumbnail[Math.floor(Math.random()*doodledaydreamsthumbnail.length)];
 </script>
 
 <script>

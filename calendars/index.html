@@ -25,8 +25,14 @@
 <article>
 	<h1 class="centerreg">Calendar Index</h1>
 	
+	<div class="indexThumb" id="forged_metal_calendar"><img src="img/forged_metal_calendar_thumbnail.png"></div>
+		<p class="indexTitle">Forged Metal Calendar</p>
+		<p class="indexDescript"><span id="forged_metal_calendar_download"></span><br>
+		<i>"Metal! Shiny! Good!"</i></p>
+	<div class="floatClear"></div>
+	
 	<div class="indexThumb" id="wedges_calendar_skin_pack"><img src="img/wedges_calendar_skin_pack_thumbnail.png"></div>
-		<p class="indexTitle"><a href="../calendars/wedges_calendar_skin_pack.html">Wedges Calendar Skin Pack</a></p>
+		<p class="indexTitle">Wedges Calendar Skin Pack</p>
 		<p class="indexDescript"><span id="wedges_calendar_skin_pack_download"></span><br>
 		<i>"Wedges: for all of your triangle needs (unless it's more than 365 triangles) (don't ask about leap years) (but yes those are covered too)."</i></p>
 	<div class="floatClear"></div>
@@ -45,6 +51,7 @@ function MakeButton(download)
 	return `<a href="${download}">Download without spoilers</a>`;
 }
 
+document.getElementById('forged_metal_calendar_download').innerHTML = MakeButton(balloon_downloads["forged_metal_calendar"]);
 document.getElementById('wedges_calendar_skin_pack_download').innerHTML = MakeButton(balloon_downloads["wedges_calendar_skin_pack"]);
 
 </script>

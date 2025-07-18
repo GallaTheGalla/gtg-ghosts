@@ -26,7 +26,7 @@ let version_history = [
 		download: latest_version,
 		changelog:
 		[
-			"Initial Release."
+			"Initial release. Made for Ghost Jam 2018. Originally hosted on dropbox."
 		]
 	}
 	

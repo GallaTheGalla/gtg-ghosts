@@ -9,9 +9,10 @@ if (!(location.pathname.endsWith("gtg-ghosts/index.html") || location.pathname.e
 let links = [
 	{path: 'index', title: 'Home'},
 	{path: 'ghosts/index', title: 'Ghosts'},
-	{path: 'shells/index', title: 'Shells'},
 	{path: 'balloons/index', title: 'Balloons'},
 	{path: 'calendars/index', title: 'Calendars'},
+	{path: 'shells/index', title: 'Shells'},
+	{path: 'freeshells/index', title: 'Freeshells'},
 	{path: 'misc_index', title: 'Misc'}
 ];
 

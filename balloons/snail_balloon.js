@@ -22,11 +22,25 @@ let reviews = [
 let version_history = [
 	
 	{
-		version: "Download snail_balloon here!",
+		version: "v1.0.0",
+		download: "https://github.com/GallaTheGalla/snail_b_gcm/releases/download/v1.0.0/snail_b_gcm_v1.0.0.nar",
+		changelog:
+		[
+			"Originally released 4/25/2020 for Ghost Jam 2020.",
+			"Initial version of this balloon was only available bundled with Snail."
+		]
+	},
+	{
+		version: "v1.0.1",
 		download: latest_version,
 		changelog:
 		[
-			"snail_balloon is only available bundled with Snail."
+			"New homeurl to direct to this repo. snail_balloon from v1.0.0 will not update to this version automatically.",
+			"File directory has been renamed from gcm_snail_b to snail_b_gcm.",
+			"craftman has been renamed from galla_change_misu to Galla & Change & Misu.",
+			"Removed redundant input balloons.",
+			"Removed kero balloon.",
+			"Removed redundant odd number balloon."
 		]
 	}
 	

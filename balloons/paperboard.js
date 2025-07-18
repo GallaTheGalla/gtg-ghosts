@@ -22,11 +22,11 @@ let reviews = [
 let version_history = [
 	
 	{
-		version: "v1.0.0",
+		version: "Download Paperboard here!",
 		download: latest_version,
 		changelog:
 		[
-			"The most recent update can be found on Claw Grasshammer's site!"
+			"The most recent update can be found on Zichqec's site!"
 		]
 	}
 	
