@@ -61,8 +61,6 @@ let deepness = 0;
 function findDeepness()
 {
 	let path = location.pathname;
-	console.log(`path ${path}`);
-	console.log(`typeof path ${typeof path}`);
 	if (ishomepage)
 	{
 		deepness = 0;
@@ -71,13 +69,9 @@ function findDeepness()
 	{
 		path = path.split("gtg-ghosts/");
 		path = path[1];
-		console.log(`path after split ${path}`);
 		
 		path = path.split("/");
-		console.log(`path after splitting / ${path}`);
 		deepness = path.length - 1;
-		
-		console.log(`deepness ${deepness}`);
 	}
 }
 
@@ -94,10 +88,6 @@ function linkHTML(link)
 	if (link.title == "Home")
 	{
 		let addindex = islocal ? 'index' : '';
-		console.log(`link.title: ${link.title}`);
-		console.log(`path: ${path}`);
-		console.log(`islocal: ${islocal}`);
-		console.log(`addindex: ${addindex}`);
 
 		if (islocal)
 		{
@@ -136,7 +126,7 @@ function linkHTML(link)
 function fixLocalLinks()
 {
 	let a_links = document.getElementsByTagName("a");
-	console.log(a_links);
+	
 	for (let a_link of a_links)
 	{
 		if (a_link.href.startsWith("https://gallathegalla.github.io/gtg-ghosts/"))
