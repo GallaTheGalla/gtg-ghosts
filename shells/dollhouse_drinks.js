@@ -13,8 +13,8 @@ if (typeof shell_downloads != "undefined") //Check if we're on a page that needs
 let reviews = [
 	
 	{
-		review: `roundly pointy`,
-		attribution: "Claw Grasshammer, April 9, 2023"
+		review: `Quench your thirst, one tiny sip at a time! You'll get there eventually! The extra effort is worth it for all these pretty colors!!`,
+		attribution: "Zichqec, February 26, 2024"
 	}
 	
 ]
