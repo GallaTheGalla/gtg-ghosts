@@ -69,16 +69,8 @@ function findDeepness()
 	}
 	else
 	{
-		if (islocal)
-		{
-			path = path.split("gtg-ghosts/");
-			path = path[1];
-		}
-		else
-		{
-			path = path.replace("/gtg-ghosts","");
-			//path = path[1];
-		}
+		path = path.split("gtg-ghosts/");
+		path = path[1];
 		console.log(`path after split ${path}`);
 		
 		path = path.split("/");
@@ -107,7 +99,15 @@ function linkHTML(link)
 		console.log(`islocal: ${islocal}`);
 		console.log(`addindex: ${addindex}`);
 
-		return `<a href="${path}${addindex}${islocal}">${link.title}</a>`;
+		if (islocal)
+		{
+			return `<a href="${path}${addindex}${islocal}">${link.title}</a>`;
+		}
+		else
+		{
+			//My brain is exploding so we're going with the simple solution
+			return `<a href="https://gallathegalla.github.io/gtg-ghosts/">${link.title}</a>`;
+		}
 	}
 	//If it's a normal link
 	else if (link.path)
