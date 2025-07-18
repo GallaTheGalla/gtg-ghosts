@@ -76,8 +76,8 @@ function findDeepness()
 		}
 		else
 		{
-			path = path.split("/gtg-ghosts");
-			path = path[1];
+			//path = path.split("/gtg-ghosts");
+			//path = path[1];
 		}
 		console.log(`path after split ${path}`);
 		
