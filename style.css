@@ -95,14 +95,14 @@ footer
     margin-bottom: 5px;
 }
 
+.indexTitle, .indexTitle > a
+{
+	font-size: 20px;
+}
+
 .indexDescript
 {
 	margin-top: 5px;
-}
-
-.indexTitle > a
-{
-	font-size: 20px;
 }
 
 .floatClear
