@@ -60,20 +60,21 @@ let deepness = 0;
 //Get how many subfolders deep we are
 function findDeepness()
 {
+	let path = location.pathname;
 	if (ishomepage)
 	{
 		deepness = 0;
 	}
 	else
 	{
-		let path = location.pathname;
+		if (islocal)
+		{
+			path = path.split("gtg-ghosts/");
+			path = path[1];
+		}
 		
-		path = path.split("gtg-ghosts/");
-		
-		spliturl = path[1];
-		
-		spliturl = spliturl.split("/");
-		deepness = spliturl.length - 1;
+		path = path.split("/");
+		deepness = path.length - 1;
 	}
 }
 
