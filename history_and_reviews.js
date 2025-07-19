@@ -32,7 +32,7 @@ function makeHistory(max)
 		output += `<ul class="changelog">`
 		for (j = 0; j < input[i].changelog.length; j++)
 		{
-			output += `<li>${input[i].changelog[j]}</li>`;
+			output += `<li><p>${input[i].changelog[j]}</p></li>`;
 		}
 		
 		output += `</ul>`;

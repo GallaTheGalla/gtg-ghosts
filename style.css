@@ -43,6 +43,11 @@ a
 	color: blue;
 }
 
+li > p
+{
+	margin: 0;
+}
+
 body
 {
 	background: #823573;
