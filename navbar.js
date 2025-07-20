@@ -13,7 +13,8 @@ let links = [
 	{path: 'calendars/index', title: 'Calendars'},
 	{path: 'shells/index', title: 'Shells'},
 	{path: 'freeshells/index', title: 'Freeshells'},
-	{path: 'misc_index', title: 'Misc'}
+	{path: 'misc_index', title: 'Misc'},
+	{path: 'usage_permissions', title: 'Permissions'}
 ];
 
 /*
