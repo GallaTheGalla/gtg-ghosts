@@ -13,8 +13,8 @@ if (typeof ghost_downloads != "undefined") //Check if we're on a page that needs
 let reviews = [
 	
 	{
-		review: `Review`,
-		attribution: "Name, October 15, 2022"
+		review: `This ghost is like if you took all your brain thoughts, put them in a bag, shook it around for a while, and then pulled them out one pointy fragment at a time and launched them towards people at speed.`,
+		attribution: "Zichqec, July 25, 2025"
 	}
 	
 ]

@@ -13,8 +13,8 @@ if (typeof ghost_downloads != "undefined") //Check if we're on a page that needs
 let reviews = [
 	
 	{
-		review: `Review`,
-		attribution: "Name, October 15, 2022"
+		review: `Turns out I'm really good at fishing. What a haul! I'm going to feast well tonight!`,
+		attribution: "Zichqec, July 25, 2025"
 	}
 	
 ]
