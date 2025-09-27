@@ -23,6 +23,7 @@ let ghost_downloads = {
 	"ssp_angel": "https://github.com/Zichqec/SSP_Angel/releases/download/v1.1.2/ssp_angel_v1.1.2.nar",
 	"under_the_stars": "https://github.com/Zichqec/under_the_stars/releases/download/v1.0.0/under_the_stars_v1.0.0.nar",
 	"very_fast_snail": "https://github.com/Zichqec/very_fast_snail/releases/download/Demo/very_fast_snail_demo.nar",
+	"wanted_dead_alive_or_other": "https://github.com/Zichqec/wanted_dead_alive_or_other/releases/download/v1.0.0/wanted_dead_alive_or_other_v1.0.0.nar",
 	"what_it_takes_to_get_published": "https://github.com/GallaTheGalla/what_it_takes_to_get_published/releases/download/v1.0.0/what_it_takes_to_get_published_v1.0.0.nar",
 	"ye_olde_cursed_tower": "https://github.com/Zichqec/ye_olde_cursed_tower/releases/download/v1.0.0/ye_olde_cursed_tower_v1.0.0.nar",
 	"zanas_laws": "https://github.com/Zichqec/zanas_laws/releases/download/v1.0.2/zanas_laws_v1.0.2.nar",
