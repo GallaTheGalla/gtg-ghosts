@@ -93,12 +93,15 @@ let shell_downloads = {
 	
 	"birthday_needle": "https://ukagaka.zichqec.com/shell/birthday_needle",
 	"blushie": "https://github.com/GallaTheGalla/blushie/releases/download/v1.0.0/blushie_v1.0.0.nar",
-	"carved": "https://ukagaka.zichqec.com/ghost/needle#carved",
+	"carved": "https://www.mediafire.com/file/tlqxyqqkh9hp6kh/carved_v1.0.0.nar/file",
 	"correctly_drawn_needle": "https://github.com/GallaTheGalla/correctly_drawn_needle/releases/download/v1.0.0/correctly_drawn_needle_v1.0.0.nar",
 	"eggdle": "https://github.com/GallaTheGalla/eggdle/releases/download/v1.0.0/eggdle_v1.0.0.nar",
 	"expensive_needle": "https://ukagaka.zichqec.com/shell/expensive_needle",
-	"forbidden_galla_shell": "https://ukagaka.zichqec.com/ghost/needle#forbidden_galla_shell",
-	"polished": "https://github.com/GallaTheGalla/polished/releases/download/v1.0.0/polished_v1.0.0.nar"
+	"forbidden_galla_shell": "https://www.mediafire.com/file/rn58ctjpoj6rf3l/forbidden_galla_shell_v1.0.0.nar/file",
+	"left_handed_needle": "https://github.com/GallaTheGalla/left_handed_needle/releases/download/v1.0.0/left_handed_needle_v1.0.0.nar",
+	"polished": "https://github.com/GallaTheGalla/polished/releases/download/v1.0.0/polished_v1.0.0.nar",
+	"robed_needle": "https://github.com/GallaTheGalla/robed_needle/releases/download/v1.0.0/robed_needle_v1.0.0.nar",
+	"sewing_machine_needle": "https://github.com/GallaTheGalla/sewing_machine_needle/releases/download/v1.0.0/sewing_machine_needle_v1.0.0.nar"
 
 }
 
