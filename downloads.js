@@ -46,7 +46,7 @@ let balloon_downloads = {
 	"effortless_iridescence": "https://ukagaka.zichqec.com/balloon/effortless_iridescence",
 	"fading_like_a_dream": "https://github.com/GallaTheGalla/fading_like_a_dream/releases/download/v1.0.0/fading_like_a_dream_v1.0.0.nar",
 	"fishing_for_goodies": "https://github.com/GallaTheGalla/fishing_for_goodies/releases/download/v1.0.0/fishing_for_goodies_v1.0.0.nar",
-	"forged_metal_balloon": "https://github.com/GallaTheGalla/forged_metal_balloon/releases/download/v1.0.0/forged_metal_balloon_v1.0.0.nar",
+	"forged_metal_balloon": "https://github.com/GallaTheGalla/forged_metal_balloon/releases/download/v1.0.1/forged_metal_balloon_v1.0.1.nar",
 	"ghost_balloon": "https://github.com/GallaTheGalla/ghost_balloon/releases/download/v1.0.0/ghost_balloon_v1.0.0.nar",
 	"needloon": "https://ukagaka.zichqec.com/balloon/needloon",
 	"needloon_readable": "https://ukagaka.zichqec.com/balloon/needloon_readable",
@@ -109,6 +109,6 @@ let shell_downloads = {
 //—————————————————————————— Freeshells ——————————————————————————
 let freeshell_downloads = {
 
-	"forged_metal": "https://github.com/GallaTheGalla/forged_metal/releases/download/v1.0.0/forged_metal_v1.0.0.nar"
+	"forged_metal": "https://github.com/GallaTheGalla/forged_metal/releases/download/v1.0.1/forged_metal_v1.0.1.nar"
 
 }
