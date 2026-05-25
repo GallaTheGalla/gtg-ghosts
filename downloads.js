@@ -5,6 +5,7 @@ let ghost_downloads = {
 
 	"balloons": "https://www.mediafire.com/file/6z1jv0dpw0tyzql/balloons_v1.0.3.nar/file",
 	"doodle_daydreams": "https://github.com/Zichqec/doodle_daydreams/releases/download/v1.0.1/doodle_daydreams_v1.0.1.nar",
+	"dont_hold_your_breath": "https://github.com/Zichqec/dont_hold_your_breath/releases/download/v1.0.0/dont_hold_your_breath_v1.0.0.nar",
 	"encore_onto_another_life": "https://github.com/GallaTheGalla/encore_onto_another_life/releases/download/v1.0.0/encore_onto_another_life_v1.0.0.nar",
 	"gallery_512": "https://github.com/Zichqec/gallery_512/releases/download/v1.0.1/gallery_512_v1.0.1.nar",
 	"how_to_remember_your_friends": "https://github.com/GallaTheGalla/how_to_remember_your_friends/releases/download/v1.0.0/how_to_remember_your_friends_v1.0.0.nar",
